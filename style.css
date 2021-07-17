@@ -1,0 +1,82 @@
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+#video {
+    text-align: center;
+}
+
+#map {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#details {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#contacts {
+    padding: 0px;
+}
+
+.campus_mainDiv {
+    float: left;
+    padding: 3px;
+}
+
+.campus_mainDiv img {
+    width: 100%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.campus_mainDiv hr {
+    width: 100%;
+}
+
+.campus_mainDiv h5,
+.campus_mainDiv p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#border {
+    border: 1px solid #c7c7c7;
+}
+
+#principle {
+    width: 170px;
+}
+
+.singing_competition {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.singing_competition i {
+    float: right;
+}
+
+.football_competition {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.football_competition i {
+    float: right;
+}
